@@ -298,9 +298,9 @@ e5=Entry(f1,font=('arial',16,'bold'),textvariable=ChickenManchurian,bd=10,insert
             justify='right')
 e5.grid(row=4,column=1)
 
-#=================================END=================================================
+#=================================END==============================================
 
-#===========================INFO 3====================================================
+#===========================INFO 3=================================================
 lblCost=Label(f1,font=('arial',16,'bold'),text='Total Cost',bd=16,anchor='w')
 lblCost.grid(row=5,column=0)
 txtCost=Entry(f1,font=('arial',16,'bold'),textvariable=Cost,bd=10,insertwidth=3,
@@ -318,9 +318,9 @@ lblTotal.grid(row=7,column=0)
 txtTotal=Entry(f1,font=('arial',16,'bold'),textvariable=Total,bd=10,insertwidth=3,
                  justify='right')
 txtTotal.grid(row=7,column=1)
-#======================================END=========================================
+#======================================END====================================
 
-#============== Add Buttons================================================
+#============== Add Buttons===================================================
 btnqExit=Button(f1,bd=16,fg='black',font=('arial',16,'bold'),width=5,text="Exit",
                 bg="powder blue",command=root.destroy)
 btnqExit.grid(row=1,column=3)
